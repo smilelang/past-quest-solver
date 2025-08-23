@@ -41,11 +41,11 @@ const Index = () => {
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Past Quest Solver
+              Smile Learning
             </h1>
             
             <p className="text-xl md:text-2xl mb-8 text-white/90 leading-relaxed">
-              Master your exams with our comprehensive database of past questions and detailed answers
+              Your journey to academic excellence starts here with comprehensive past questions and expert answers
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -133,10 +133,10 @@ const Index = () => {
         <div className="container mx-auto px-4 py-8 text-center">
           <div className="flex items-center justify-center gap-2 mb-4">
             <GraduationCap className="w-6 h-6 text-primary" />
-            <span className="font-bold text-xl text-foreground">Past Quest Solver</span>
+            <span className="font-bold text-xl text-foreground">Smile Learning</span>
           </div>
           <p className="text-muted-foreground">
-            Empowering students with comprehensive past questions and answers
+            Transforming education through comprehensive study resources and academic excellence
           </p>
         </div>
       </footer>

@@ -1,73 +1,88 @@
-# Welcome to your Lovable project
+# Smile Learning - Past Questions & Answers Platform
 
-## Project info
+## About Smile Learning
 
-**URL**: https://lovable.dev/projects/62502f64-20f4-491f-bd4e-fb52124eaf9c
+Smile Learning is a comprehensive educational platform designed to help students excel in their studies through access to past exam questions and detailed answers. Our mission is to transform education by providing students with the resources they need to achieve academic success.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- **Comprehensive Question Database**: Access to a wide variety of past exam questions across multiple subjects
+- **Detailed Answers**: Expert-written answers with explanations to help you understand concepts
+- **Smart Search & Filtering**: Find questions by subject, year, difficulty level, or keywords
+- **Responsive Design**: Study anywhere with our mobile-friendly platform
+- **Modern Interface**: Clean, intuitive design focused on learning
 
-**Use Lovable**
+## Technologies Used
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/62502f64-20f4-491f-bd4e-fb52124eaf9c) and start prompting.
+This project is built with modern web technologies:
 
-Changes made via Lovable will be committed automatically to this repo.
+- **React 18** - Modern UI library
+- **TypeScript** - Type-safe JavaScript
+- **Vite** - Fast build tool and development server
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn/ui** - Beautiful, accessible UI components
+- **React Router** - Client-side routing
 
-**Use your preferred IDE**
+## Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Node.js (version 16 or higher)
+- npm or yarn package manager
 
-Follow these steps:
+### Installation
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. Clone the repository:
+```bash
+git clone <your-repository-url>
+cd smile-learning
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. Install dependencies:
+```bash
+npm install
+```
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open your browser and navigate to `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Project Structure
 
-**Use GitHub Codespaces**
+```
+src/
+├── components/          # Reusable UI components
+│   ├── ui/             # shadcn/ui components
+│   ├── QuestionCard.tsx # Individual question display
+│   └── SearchBar.tsx   # Search and filter functionality
+├── data/               # Static data and mock content
+├── pages/              # Page components
+├── hooks/              # Custom React hooks
+└── lib/                # Utility functions
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Available Scripts
 
-## What technologies are used for this project?
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-This project is built with:
+## Contributing
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+We welcome contributions to Smile Learning! Please feel free to submit issues, feature requests, or pull requests.
 
-## How can I deploy this project?
+## License
 
-Simply open [Lovable](https://lovable.dev/projects/62502f64-20f4-491f-bd4e-fb52124eaf9c) and click on Share -> Publish.
+This project is licensed under the MIT License.
 
-## Can I connect a custom domain to my Lovable project?
+## Contact
 
-Yes, you can!
+For questions or support, please reach out to the Smile Learning team.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+**Smile Learning** - Transforming education through comprehensive study resources and academic excellence.
