@@ -43,7 +43,7 @@ const HomePage = () => {
                 size="lg"
                 className="border-white text-white hover:bg-white hover:text-primary px-8 py-3 text-lg font-semibold transition-smooth"
               >
-                <Link to="/about">
+                <Link to="/introduction">
                   Learn More
                 </Link>
               </Button>

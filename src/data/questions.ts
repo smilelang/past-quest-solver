@@ -188,9 +188,99 @@ export const sampleQuestions: Question[] = [
     answerText: 'Inflation: General increase in prices over time, reducing purchasing power\n\n**Types of Inflation:**\n1. **Demand-Pull:** Too much money chasing too few goods\n2. **Cost-Push:** Rising production costs\n3. **Built-in:** Expected inflation becomes reality\n\n**Measurement:**\n- Consumer Price Index (CPI)\n- Producer Price Index (PPI)\n- GDP Deflator\n\n**Effects on Different Groups:**\n\n**Winners:**\n- **Debtors:** Pay back with cheaper dollars\n- **Asset owners:** Real estate, stocks may appreciate\n- **Variable income earners:** Wages that adjust with inflation\n\n**Losers:**\n- **Fixed income recipients:** Pensioners, bondholders\n- **Savers:** Cash loses purchasing power\n- **Creditors:** Repaid with cheaper money\n\n**Economic Impacts:**\n- Reduces purchasing power\n- Creates uncertainty in planning\n- Can stimulate short-term growth\n- Erodes savings and investment\n\n**Policy Response:** Central banks use interest rates and monetary policy to control inflation.',
     difficulty: 'medium',
     tags: ['macroeconomics', 'inflation', 'monetary policy', 'economic effects']
+  },
+  {
+    id: '21',
+    subject: 'Mathematics',
+    year: 2024,
+    questionText: 'Find the area under the curve y = x² from x = 0 to x = 3 using integration.',
+    answerText: 'Finding area under curve y = x² from x = 0 to x = 3:\n\n**Step 1: Set up the integral**\nArea = ∫₀³ x² dx\n\n**Step 2: Find the antiderivative**\n∫ x² dx = x³/3 + C\n\n**Step 3: Apply limits using Fundamental Theorem of Calculus**\nArea = [x³/3]₀³\nArea = (3³/3) - (0³/3)\nArea = (27/3) - 0\nArea = 9\n\n**Verification by Riemann sums:**\nUsing rectangles, as n→∞:\nΣ(3i/n)² · (3/n) = 27/n³ · Σi² = 27/n³ · n(n+1)(2n+1)/6\nAs n→∞, this approaches 9.\n\n**Answer:** The area under the curve is 9 square units.',
+    difficulty: 'medium',
+    tags: ['calculus', 'integration', 'definite integrals', 'area under curve']
+  },
+  {
+    id: '22',
+    subject: 'Physics',
+    year: 2024,
+    questionText: 'A pendulum has a length of 1.0 m. Calculate its period and frequency on Earth.',
+    answerText: 'Simple Pendulum Calculations:\n\n**Given:**\n- Length (L) = 1.0 m\n- Acceleration due to gravity (g) = 9.8 m/s²\n\n**Formula for period:**\nT = 2π√(L/g)\n\n**Step 1: Calculate period**\nT = 2π√(1.0/9.8)\nT = 2π√(0.102)\nT = 2π × 0.319\nT = 2.01 seconds\n\n**Step 2: Calculate frequency**\nFrequency f = 1/T\nf = 1/2.01\nf = 0.497 Hz ≈ 0.50 Hz\n\n**Physical Interpretation:**\n- The pendulum completes one full swing in ~2 seconds\n- It oscillates at approximately 0.5 cycles per second\n- Period is independent of mass and amplitude (for small angles)\n\n**Results:**\n- Period T = 2.01 s\n- Frequency f = 0.50 Hz',
+    difficulty: 'easy',
+    tags: ['oscillations', 'simple harmonic motion', 'pendulum', 'periodic motion']
+  },
+  {
+    id: '23',
+    subject: 'Chemistry',
+    year: 2024,
+    questionText: 'Explain the concept of electronegativity and predict the bond type in NaCl and H₂O.',
+    answerText: 'Electronegativity: Ability of an atom to attract electrons in a chemical bond\n\n**Electronegativity Scale (Pauling Scale):**\n- Fluorine: 4.0 (highest)\n- Oxygen: 3.5\n- Chlorine: 3.0\n- Nitrogen: 3.0\n- Carbon: 2.5\n- Hydrogen: 2.1\n- Sodium: 0.9\n\n**Bond Type Prediction Rules:**\n- ΔEN > 1.7: Ionic bond\n- 0.4 < ΔEN < 1.7: Polar covalent\n- ΔEN < 0.4: Nonpolar covalent\n\n**Analysis:**\n\n**1. NaCl:**\n- Na: 0.9, Cl: 3.0\n- ΔEN = 3.0 - 0.9 = 2.1\n- Since 2.1 > 1.7 → **Ionic bond**\n- Na⁺ and Cl⁻ ions form crystal lattice\n\n**2. H₂O:**\n- H: 2.1, O: 3.5\n- ΔEN = 3.5 - 2.1 = 1.4\n- Since 0.4 < 1.4 < 1.7 → **Polar covalent bond**\n- Electrons pulled toward oxygen, creating partial charges (δ+ on H, δ- on O)',
+    difficulty: 'medium',
+    tags: ['electronegativity', 'chemical bonding', 'ionic bonds', 'covalent bonds']
+  },
+  {
+    id: '24',
+    subject: 'Biology',
+    year: 2024,
+    questionText: 'Explain the process of protein synthesis, including transcription and translation.',
+    answerText: 'Protein Synthesis: Two-stage process converting DNA information into proteins\n\n**Stage 1: Transcription (DNA → RNA)**\n\n**Location:** Nucleus (eukaryotes)\n**Steps:**\n1. **Initiation:** RNA polymerase binds to promoter\n2. **Elongation:** DNA unwinds, RNA polymerase reads template strand\n3. **Termination:** RNA polymerase reaches terminator sequence\n\n**Product:** mRNA (messenger RNA)\n\n**Stage 2: Translation (RNA → Protein)**\n\n**Location:** Ribosomes (cytoplasm/ER)\n**Steps:**\n1. **Initiation:** mRNA binds to ribosome, first tRNA arrives\n2. **Elongation:** tRNAs bring amino acids, peptide bonds form\n3. **Termination:** Stop codon reached, protein released\n\n**Key Players:**\n- **mRNA:** Carries genetic code\n- **tRNA:** Brings amino acids, has anticodon\n- **rRNA:** Part of ribosome structure\n- **Ribosomes:** Protein synthesis machinery\n\n**Genetic Code:**\n- Triplet codons (3 bases = 1 amino acid)\n- 64 codons, 20 amino acids\n- Start codon: AUG\n- Stop codons: UAA, UAG, UGA\n\n**Result:** Functional protein with specific amino acid sequence',
+    difficulty: 'hard',
+    tags: ['protein synthesis', 'transcription', 'translation', 'molecular biology', 'genetics']
+  },
+  {
+    id: '25',
+    subject: 'English',
+    year: 2024,
+    questionText: 'Analyze the use of symbolism in George Orwell\'s "1984" with specific examples.',
+    answerText: 'Symbolism in George Orwell\'s "1984":\n\n**1. Big Brother**\n- **Symbol:** Omnipresent government surveillance\n- **Meaning:** Loss of privacy, totalitarian control\n- **Quote:** "Big Brother Is Watching You"\n- **Effect:** Creates atmosphere of paranoia and fear\n\n**2. Room 101**\n- **Symbol:** Ultimate fear and psychological breaking point\n- **Meaning:** Complete destruction of individual will\n- **Context:** Winston\'s fear of rats used against him\n- **Significance:** Represents how totalitarian regimes exploit personal fears\n\n**3. The Glass Paperweight**\n- **Symbol:** Beauty, past, and fragile human connections\n- **Meaning:** Winston and Julia\'s relationship\n- **Destruction:** Shatters when arrested, symbolizing broken love\n- **Metaphor:** Fragility of truth and beauty under oppression\n\n**4. Newspeak**\n- **Symbol:** Control of thought through language\n- **Purpose:** Limit expression = limit thought\n- **Examples:** "doublethink," "thoughtcrime"\n- **Warning:** How language manipulation controls minds\n\n**5. The Telescreen**\n- **Symbol:** Two-way surveillance technology\n- **Modern relevance:** Social media, smart devices\n- **Effect:** No private space or thought\n\n**Overall Theme:** These symbols work together to show how totalitarian power destroys individual freedom, truth, and human connection.',
+    difficulty: 'hard',
+    tags: ['literature analysis', 'symbolism', 'dystopian fiction', '1984', 'orwell']
+  },
+  {
+    id: '26',
+    subject: 'History',
+    year: 2024,
+    questionText: 'Examine the causes and consequences of the French Revolution (1789-1799).',
+    answerText: 'The French Revolution (1789-1799): Causes and Consequences\n\n**CAUSES:**\n\n**1. Social Inequality (Ancien Régime):**\n- First Estate: Clergy (1% of population, tax-exempt)\n- Second Estate: Nobility (2% of population, tax-exempt)\n- Third Estate: Everyone else (97%, paid all taxes)\n\n**2. Economic Crisis:**\n- Massive debt from wars (Seven Years\' War, American Revolution)\n- Poor harvests leading to bread shortages\n- Inefficient tax system\n\n**3. Political Weakness:**\n- Louis XVI\'s indecisive leadership\n- Absolute monarchy losing legitimacy\n- Failed attempts at financial reform\n\n**4. Enlightenment Ideas:**\n- Popular sovereignty (Rousseau)\n- Separation of powers (Montesquieu)\n- Natural rights (Locke)\n- Spread through salons and pamphlets\n\n**CONSEQUENCES:**\n\n**1. Political Changes:**\n- End of absolute monarchy\n- Declaration of Rights of Man (1789)\n- Rise of nationalism\n- Eventual rise of Napoleon\n\n**2. Social Transformation:**\n- Abolition of feudalism\n- Legal equality regardless of birth\n- Secular education system\n\n**3. International Impact:**\n- Inspired democratic movements worldwide\n- Napoleonic Wars spread revolutionary ideas\n- Conservative reaction (Congress of Vienna)\n\n**Long-term Legacy:** Established principles of liberty, equality, and fraternity that influenced modern democratic societies.',
+    difficulty: 'hard',
+    tags: ['french revolution', 'european history', 'political change', 'social transformation']
+  },
+  {
+    id: '27',
+    subject: 'Computer Science',
+    year: 2024,
+    questionText: 'Implement a stack data structure in Python with push, pop, and peek operations.',
+    answerText: 'Stack Implementation in Python:\n\n```python\nclass Stack:\n    def __init__(self):\n        \"\"\"Initialize empty stack\"\"\"\n        self.items = []\n    \n    def push(self, item):\n        \"\"\"Add item to top of stack\"\"\"\n        self.items.append(item)\n        print(f"Pushed {item} to stack")\n    \n    def pop(self):\n        \"\"\"Remove and return top item\"\"\"\n        if self.is_empty():\n            return "Stack is empty"\n        item = self.items.pop()\n        print(f"Popped {item} from stack")\n        return item\n    \n    def peek(self):\n        \"\"\"Return top item without removing\"\"\"\n        if self.is_empty():\n            return "Stack is empty"\n        return self.items[-1]\n    \n    def is_empty(self):\n        \"\"\"Check if stack is empty\"\"\"\n        return len(self.items) == 0\n    \n    def size(self):\n        \"\"\"Return number of items in stack\"\"\"\n        return len(self.items)\n    \n    def display(self):\n        \"\"\"Display stack contents\"\"\"\n        if self.is_empty():\n            print("Stack is empty")\n        else:\n            print("Stack contents (top to bottom):", self.items[::-1])\n\n# Example usage:\nstack = Stack()\nstack.push(10)\nstack.push(20)\nstack.push(30)\nstack.display()  # [30, 20, 10]\nprint("Top item:", stack.peek())  # 30\nstack.pop()  # Removes 30\nstack.display()  # [20, 10]\n```\n\n**Time Complexities:**\n- Push: O(1)\n- Pop: O(1)\n- Peek: O(1)\n- Space: O(n)',
+    difficulty: 'medium',
+    tags: ['data structures', 'stack', 'python', 'programming', 'algorithms']
+  },
+  {
+    id: '28',
+    subject: 'Economics',
+    year: 2024,
+    questionText: 'Explain the concept of GDP and calculate it using the expenditure approach.',
+    answerText: 'Gross Domestic Product (GDP): Total value of all goods and services produced within a country\'s borders in one year\n\n**Expenditure Approach Formula:**\nGDP = C + I + G + (X - M)\n\nWhere:\n- **C = Consumption:** Household spending on goods/services\n- **I = Investment:** Business investment in capital goods\n- **G = Government Spending:** Government purchases of goods/services\n- **X = Exports:** Goods/services sold to other countries\n- **M = Imports:** Goods/services bought from other countries\n- **(X - M) = Net Exports**\n\n**Example Calculation:**\nCountry ABC (2024):\n- Consumer spending: $800 billion\n- Business investment: $200 billion\n- Government spending: $300 billion\n- Exports: $150 billion\n- Imports: $100 billion\n\n**Solution:**\nGDP = C + I + G + (X - M)\nGDP = 800 + 200 + 300 + (150 - 100)\nGDP = 800 + 200 + 300 + 50\nGDP = $1,350 billion\n\n**Other GDP Approaches:**\n1. **Income Approach:** Sum of all incomes\n2. **Production Approach:** Sum of value added\n\n**GDP Limitations:**\n- Doesn\'t measure income distribution\n- Excludes non-market activities\n- Ignores environmental costs\n- Doesn\'t reflect quality of life\n\n**Real vs Nominal GDP:**\n- Nominal: Current prices\n- Real: Adjusted for inflation',
+    difficulty: 'medium',
+    tags: ['macroeconomics', 'GDP', 'national income', 'economic indicators']
+  },
+  {
+    id: '29',
+    subject: 'Mathematics',
+    year: 2020,
+    questionText: 'Prove that the sum of angles in any triangle is 180°.',
+    answerText: 'Proof: Sum of angles in a triangle equals 180°\n\n**Method: Using Parallel Lines**\n\n**Given:** Triangle ABC with angles α, β, and γ\n\n**Construction:**\n1. Draw a line through vertex A parallel to side BC\n2. Label this line as line l\n\n**Proof:**\n\n**Step 1:** Since line l is parallel to BC:\n- Angle BAl = angle ABC = β (alternate interior angles)\n- Angle CAl = angle ACB = γ (alternate interior angles)\n\n**Step 2:** At point A, angles on line l form a straight line:\nAngle BAl + angle BAC + angle CAl = 180°\n\n**Step 3:** Substitute from Step 1:\nβ + α + γ = 180°\n\n**Therefore:** The sum of all three angles in triangle ABC is 180°\n\n**Alternative Proof (Exterior Angle):**\n1. Extend side BC to point D\n2. Exterior angle ACD = α + β (exterior angle theorem)\n3. Since ACD + γ = 180° (angles on straight line)\n4. Therefore: (α + β) + γ = 180°\n\n**Conclusion:** This proof works for any triangle - acute, right, or obtuse.\n\n**Q.E.D.** (Quod Erat Demonstrandum - "which was to be demonstrated")',
+    difficulty: 'hard',
+    tags: ['geometry', 'proof', 'triangles', 'parallel lines', 'angle relationships']
+  },
+  {
+    id: '30',
+    subject: 'Physics',
+    year: 2020,
+    questionText: 'Explain the photoelectric effect and how it supports the particle theory of light.',
+    answerText: 'The Photoelectric Effect: Evidence for Light\'s Particle Nature\n\n**Definition:** Emission of electrons from a metal surface when light of sufficient frequency strikes it\n\n**Key Observations:**\n\n**1. Threshold Frequency:**\n- Below certain frequency f₀, no electrons emitted regardless of intensity\n- Above f₀, electrons emitted immediately\n\n**2. Maximum Kinetic Energy:**\n- Depends only on frequency, not intensity\n- KEₘₐₓ increases linearly with frequency\n\n**3. Number of Electrons:**\n- Proportional to light intensity (at f > f₀)\n- Independent of frequency\n\n**Classical Wave Theory Problems:**\n- Predicted energy should depend on intensity only\n- Couldn\'t explain threshold frequency\n- Expected time delay for electron emission\n\n**Einstein\'s Photon Explanation (1905):**\n\n**Key Concept:** Light consists of discrete energy packets (photons)\n\n**Energy of photon:** E = hf\nWhere h = Planck\'s constant (6.626 × 10⁻³⁴ J·s)\n\n**Photoelectric Equation:**\nhf = φ + KEₘₐₓ\n\nWhere:\n- hf = photon energy\n- φ = work function (minimum energy to remove electron)\n- KEₘₐₓ = maximum kinetic energy of emitted electron\n\n**Explanation of Observations:**\n1. **Threshold frequency:** f₀ = φ/h\n2. **Energy independence of intensity:** Each photon has fixed energy hf\n3. **Immediate emission:** One-to-one photon-electron interaction\n\n**Historical Significance:**\n- Won Einstein the 1921 Nobel Prize\n- Established wave-particle duality\n- Foundation of quantum mechanics',
+    difficulty: 'hard',
+    tags: ['quantum physics', 'photoelectric effect', 'photons', 'wave-particle duality', 'einstein']
   }
 ];
 
 export const subjects = ['All', 'Mathematics', 'Physics', 'Chemistry', 'Biology', 'English', 'History', 'Computer Science', 'Economics'];
-export const years = [2023, 2022, 2021, 2020, 2019];
+export const years = [2024, 2023, 2022, 2021, 2020, 2019];
 export const difficulties = ['All', 'easy', 'medium', 'hard'];
