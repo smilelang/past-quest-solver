@@ -31,9 +31,9 @@ const HomePage = () => {
                 size="lg" 
                 className="bg-white text-primary hover:bg-white/90 px-8 py-3 text-lg font-semibold transition-smooth"
               >
-                <Link to="/questions">
+                <Link to="/auth">
                   <Search className="w-5 h-5 mr-2" />
-                  Start Studying
+                  Start Learning
                 </Link>
               </Button>
               
