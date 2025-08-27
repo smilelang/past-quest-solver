@@ -44,9 +44,10 @@ const AuthPage = () => {
       
       navigate('/dashboard');
     } catch (error: any) {
+      console.error('Sign up error:', error);
       toast({
         title: "Error",
-        description: error.message || "Failed to create account",
+        description: error.message || "Failed to create account. Please check your internet connection and try again.",
         variant: "destructive",
       });
     } finally {
